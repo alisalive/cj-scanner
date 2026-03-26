@@ -20,8 +20,7 @@
 ---
 
 ## 📸 Preview
-*(Bura terminaldakı o qırmızı bannerli və nəticəli skrinşotunu əlavə et - şəkli repo-ya yükləyib linkini bura qoy)*
-![CJ-SCANNER Demo](your-screenshot-link-here.png)
+
 
 ---
 
@@ -30,7 +29,8 @@ Install Dependencies:
 
 Bash
 pip install requests colorama pyfiglet
-🚀 How to Use
+
+## 🚀 How to Use
 Prepare a .txt file (e.g., domains.txt) with one domain per line.
 
 Run the scanner:
@@ -39,14 +39,14 @@ Bash
 python clickjack_checker.py
 Enter the path to your file when prompted and watch the results stream in real-time.
 
-🔍 Technical Strategy
+## 🔍 Technical Strategy
 The tool evaluates security posture based on the following logic:
 
 VULNERABLE: If both X-Frame-Options and CSP: frame-ancestors are missing or misconfigured (e.g., allow-from or wildcards).
 
 SECURE: If a valid DENY, SAMEORIGIN, or strict frame-ancestors directive is detected.
 
-👤 Author
+## 👤 Author
 Shikhali Jamalzade
 
 GitHub: @alisalive
@@ -55,7 +55,7 @@ Instagram: @alisalive.exe
 
 Specialization: Cybersecurity Student & Penetration Tester
 
-⚖️ Disclaimer
+## ⚖️ Disclaimer
 This tool is developed for authorized security auditing and educational purposes only. The author is not responsible for any misuse or damage caused by this tool. Always obtain explicit permission before testing any target.
 
 1. **Clone the Repository:**
