@@ -3,9 +3,6 @@
 **A Professional, Multi-Layered Clickjacking (UI Redressing) Vulnerability Scanner**
 
 <img width="836" height="333" alt="cj-scanner" src="https://github.com/user-attachments/assets/c7fa95c4-ac9a-48ff-8c49-1948746f26ac" />
-<img width="792" height="664" alt="result1" src="https://github.com/user-attachments/assets/0b8ab2c7-8d87-43d6-9599-8f0260af92c6" />
-<img width="601" height="327" alt="result2" src="https://github.com/user-attachments/assets/9e8f25e7-fba7-4a3e-b452-ccfe1e6d31c1" />
-<img width="607" height="202" alt="result3" src="https://github.com/user-attachments/assets/421418de-e261-416d-8771-000939f84198" />
 
 **CJ-SCANNER** is a high-performance terminal tool designed for security researchers and penetration testers. It automates the detection of Clickjacking vulnerabilities by performing deep, dual-layer analysis of HTTP response headers across multiple targets — all from a single command.
 
